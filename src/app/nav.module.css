@@ -40,3 +40,9 @@
   color: #1E3612;
   border-bottom: 3px solid #1E3612;
 }
+
+ @media only screen and (max-width: 600px) {
+   .nav {
+     display: none;
+   }
+}

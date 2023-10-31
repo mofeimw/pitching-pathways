@@ -11,7 +11,7 @@ export default function SocialFooter() {
           height={40}
         /></a></li>
         <li><a href="#"><Image
-          src="/twitter.svg"
+          src="/x.svg"
           width={40}
           height={40}
         /></a></li>

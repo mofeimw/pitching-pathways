@@ -13,10 +13,10 @@ export default function Home() {
         <Image
           src="/logo.png"
           className={styles.heroLogo}
-          width={320}
-          height={220}
+          width={420}
+          height={280}
         />
-        <p className={styles.heroPara}>Leap to the forefront of A.I. investment.</p>
+        <p className={styles.heroPara}>Leap to the Forefront of A.I. Investment.</p>
         <div className={styles.heroForm}>
           <input className={styles.heroEmail} type="email" placeholder="your@email.com"/>
           <button className={styles.heroSubmit}>Notify Me!</button>

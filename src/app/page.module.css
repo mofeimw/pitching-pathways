@@ -8,7 +8,7 @@
 
 .heroLogo {
   border: 1px solid black;
-  margin-bottom: 1em;
+  margin-bottom: 0.1em;
 }
 
 .heroLogo:hover {
@@ -17,14 +17,15 @@
 
 .heroTitle {
   font-weight: 900;
-  font-size: 4.4em;
+  font-size: 4.5em;
   text-transform: uppercase;
   color: #1E3612;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.2em;
 }
 
 .heroPara {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  margin-bottom: 0.7em;
 }
 
 .heroForm {
@@ -63,4 +64,10 @@
 .heroSubmit:hover {
   box-shadow: 4px 4px #000;
 
+}
+
+ @media only screen and (max-width: 600px) {
+  .heroTitle {
+    text-align: center;
+  }
 }
