@@ -1,0 +1,42 @@
+.nav {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+}
+
+.navLogo {
+  float: left;
+  height: 3.5em;
+  width: 5.5em;
+  margin: 3em 5em;
+}
+
+.navList {
+  display: inline-block;
+  float: right;
+  margin-top: 4em;
+}
+
+.navListEl {
+  list-style-type: none;
+  display: inline;
+  margin-right: 2em;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navListEl:last-child {
+  margin-right: 4.5em;
+}
+
+.navList a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navList a:hover {
+  color: #1E3612;
+  border-bottom: 3px solid #1E3612;
+}

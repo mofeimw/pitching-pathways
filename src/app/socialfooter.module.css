@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 2em;
+  text-align: center;
+}
+
+.footerList {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 2em;
+  font-size: 1.2em;
+}
+
+.footerList li {
+  margin: 0 1em;
+  display: inline;
+}
+
+.footerList a {
+  text-decoration: none;
+  color: black;
+}
+
+
