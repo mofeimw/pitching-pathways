@@ -12,7 +12,7 @@ export default function Nav() {
       /></a>
       <ul className={styles.navList}>
         <li className={styles.navListEl}><a href="https://pitching-pathways.vercel.app/">Home</a></li>
-        <li className={styles.navListEl}><a href="#">About</a></li>
+        <li className={styles.navListEl}><a href="about.html">About</a></li>
         <li className={styles.navListEl}><a href="#">Team</a></li>
         <li className={styles.navListEl}><a href="#">Join</a></li>
       </ul>
