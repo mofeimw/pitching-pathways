@@ -11,7 +11,7 @@ export default function Nav() {
         height={220}
       /></a>
       <ul className={styles.navList}>
-        <li className={styles.navListEl}><a href="#">Home</a></li>
+        <li className={styles.navListEl}><a href="https://pitching-pathways.vercel.app/#">Home</a></li>
         <li className={styles.navListEl}><a href="#">About</a></li>
         <li className={styles.navListEl}><a href="#">Team</a></li>
         <li className={styles.navListEl}><a href="#">Join</a></li>
