@@ -1,3 +1,6 @@
+// LEGACY VERSION!
+// server side component; needs to be client side
+
 "use client";
 
 import Nav from './nav'
@@ -7,12 +10,27 @@ import Footer from './footer'
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import Rodal from 'rodal'
+import './rodal.css'
+
 export default function Home() {
+  let email = ""
+  let modal = false
+
+  function modalShow() {
+    modal = true
+  }
+
+  function modalClose() {
+    console.log("yayayya")
+    modal = false
+  }
+
   function emailSubmit(e) {
-    let email = event.target.email.value
+    email = event.target.email.value
     e.preventDefault()
 
-    alert("adding " + email + " to mailing list")
+    // alert("adding " + email + " to mailing list")
   }
 
   return (
@@ -35,6 +53,13 @@ export default function Home() {
           <button type="submit" className={styles.heroSubmit}>Notify Me!</button>
         </form>
       </main>
+
+      <Rodal visible={modal} onClose={modalClose}>
+          <div>
+            <p>Adding {email} to the mailing list!</p>
+          </div>
+        </Rodal>
+
       <Socials/>
       <Footer/>
     </div>

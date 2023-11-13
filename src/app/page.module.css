@@ -29,14 +29,15 @@
 }
 
 .heroForm {
+  padding: 0;
   margin-top: 0.5em;
   display: flex;
+  margin-left: 5em;
 }
 
 .heroEmail {
   height: 1.3em;
   padding: 10px 20px;
-  margin-right: 0.5em;
   border: 1.5px solid black;
   border-radius: 0;
   font-size: 1em;
