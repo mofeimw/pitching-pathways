@@ -14,8 +14,9 @@
 .heroH1 {
   font-size: 7em;
   margin: 0;
-  text-shadow: 0 0 5px rgba(217,222,184, 0.18), 0 0 15px rgba(217,222,184, 0.18), 0 0 20px rgba(217,222,184, 0.18), 0 0 40px rgba(217,222,184, 0.18), 0 0 60px rgba(109,173,120, 0.18), 0 0 10px rgba(217,222,184, 0.18), 0 0 98px rgba(109,173,120, 0.18);
+  text-shadow: 0 0 5px rgba(217,222,184, 0.15), 0 0 15px rgba(217,222,184, 0.15), 0 0 20px rgba(217,222,184, 0.15), 0 0 40px rgba(217,222,184, 0.15), 0 0 60px rgba(109,173,120, 0.15), 0 0 10px rgba(217,222,184, 0.15), 0 0 98px rgba(109,173,120, 0.15);
   color: #d9deb8;
+  text-align: center;
 }
 
 .body {
@@ -28,6 +29,7 @@
   font-weight: 900;
   font-size: 3.5em;
   text-transform: uppercase;
+  text-align: center;
   margin-bottom: 0.2em;
   color: #8e9e92;
 }
@@ -79,8 +81,22 @@
   transform: scale(1.1);
 }
 
- @media only screen and (max-width: 600px) {
+/* responsive */
+
+@media only screen and (max-width: 600px) {
   .heroTitle {
-    text-align: center;
+    font-size: 2em;
+  }
+
+  .heroPara {
+    font-size: 1.1em;
+  }
+
+  .heroH1 {
+    font-size: 4em;
+  }
+
+  .heroEmail {
+    width: 30vw;
   }
 }

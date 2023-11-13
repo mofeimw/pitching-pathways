@@ -26,3 +26,11 @@
   color: black;
 }
 
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+  .socialsList li {
+    transition: none;
+    transform: scale(0.9);
+  }
+}

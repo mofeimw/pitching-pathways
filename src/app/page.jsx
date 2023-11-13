@@ -12,7 +12,6 @@ import Socials from './socials';
 import Footer from './footer';
 
 import styles from './page.module.css';
-import responsive from './page.responsive.module.css';
 
 export default function Home() {
   const [email, setEmail] = useState('');
