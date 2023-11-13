@@ -5,13 +5,13 @@ export default function Nav() {
   return (
     <header className={styles.nav}>
       <a href="/">
-        {/* <Image */}
-        {/*   src="/logo.png" */}
-        {/*   className={styles.navLogo} */}
-        {/*   width={320} */}
-        {/*   height={220} */}
-        {/* /> */}
-        <h1>Pitching Pathways</h1>
+        <Image
+          src="/logo-circle.png"
+          className={styles.navLogo}
+          width={320}
+          height={320}
+        />
+        {/* <h1>Pitching Pathways</h1> */}
       </a>
       <ul className={styles.navList}>
         <li className={styles.navListEl}><a href="/">Home</a></li>

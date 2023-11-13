@@ -1,21 +1,19 @@
 .aside {
   width: 100%;
   margin: 0 auto;
-  position: fixed;
-  left: 50%;
-  top: 35%;
   text-align: center;
 }
 
 .socialsList {
   display: inline-block;
   list-style-type: none;
-  margin-right: 11em;
   font-size: 1.2em;
+  margin-top: 8em;
 }
 
 .socialsList li {
-  margin: 1.5em 0;
+  display: inline-block;
+  margin: 0 1.5em;
   transition: all .2s ease-in-out;
 }
 

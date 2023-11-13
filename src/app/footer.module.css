@@ -5,9 +5,11 @@
   bottom: 1.5em;
   text-align: center;
   font-style: italic;
+  color: #748277;
 }
 
 .footer a {
   color: #000;
+  color: #748277;
   text-decoration: none;
 }

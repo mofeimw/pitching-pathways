@@ -11,21 +11,22 @@
   display: inline-block;
   letter-spacing: 0.6px;
   text-transform: uppercase;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-left: -13em; /* temp; test */
+  color: #d9deb8;
 }
 
 .navLogo {
   float: left;
-  height: 3.5em;
-  width: 5.5em;
-  margin: 0 2em;
+  height: 6em;
+  width: 6em;
+  margin: 1em 2em;
 }
 
 .navList {
   display: inline-block;
   float: right;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .navListEl {
@@ -38,17 +39,20 @@
 }
 
 .navListEl:last-child {
-  margin-right: 4.5em;
+  margin-right: 2.5em;
 }
 
 .navList a {
   color: #000;
+  color: #d9deb8;
   text-decoration: none;
 }
 
 .navList a:hover {
   color: #1E3612;
+  color: #e66eaa;
   border-bottom: 3px solid #1E3612;
+  border-bottom: 3px solid #e66eaa;
 }
 
  @media only screen and (max-width: 600px) {

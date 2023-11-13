@@ -46,18 +46,13 @@ export default function Home() {
       <main className={styles.hero}>
         <h1 className={styles.heroTitle}>Coming Soon.</h1>
 
-        <Image
-          src="/logo.png"
-          className={styles.heroLogo}
-          width={420}
-          height={280}
-        />
+        <h1 className={styles.heroH1}>Pitching Pathways</h1>
 
         <p className={styles.heroPara}>Leap to the Forefront of A.I. Investment.</p>
 
         <form action="/api/email" method="post" onSubmit={handleEmailSubmit} className={styles.heroForm}>
           <input name="email" className={styles.heroEmail} type="email" placeholder="your@email.com" required/>
-          <button type="submit" className={styles.heroSubmit}>Notify Me!</button>
+          <button type="submit" className={styles.heroSubmit}>Notify Me</button>
         </form>
       </main>
 
