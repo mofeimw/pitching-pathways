@@ -26,10 +26,18 @@ export default function Home() {
   };
 
   const handleEmailSubmit = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     const email = e.target.email.value;
-    setEmail(email);
-    showModal();
+
+    fetch("/api/email", {
+      method: "POST",
+      body: new URLSearchParams(new FormData(e.target))
+    })
+      .then(() => {
+        setEmail(email);
+        showModal();
+      })
+      .catch((e) => console.log(e));
   };
 
   return (
