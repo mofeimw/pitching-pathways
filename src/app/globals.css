@@ -31,16 +31,34 @@ body {
   }
 }
 }
+#wrapper {
+  background-color: #97bf82;
+  color: #e2d1c3;
+}
 
 @media (min-width: 1250px) {
   #wrapper {
+    margin: auto;
     width: 80%;
     border: 1px solid #000033;
     box-shadow: 3px 3px 3px #333;
   }
+
+  header {
+    background-image: url(#); /* Add your image URL here */
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+    height: 120px;
+  }
+
   h1 {
     font-size: 2em;
     letter-spacing: 0.2em;
+    margin-right: 35%;
+    margin-left: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 }
 
