@@ -15,12 +15,16 @@
 }
 
 .socialsList li {
-  margin: 1.3em 0;
+  margin: 1.5em 0;
+  transition: all .2s ease-in-out;
+}
+
+.socialsList li:hover {
+  transform: scale(1.3);
 }
 
 .socialsList a {
   text-decoration: none;
   color: black;
 }
-
 
