@@ -1,14 +1,13 @@
 import Nav from '.././nav'
-import SocialFooter from '.././socialfooter'
+import Footer from '.././footer'
 
 import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function About() {
   return (
-    <div>
-      {/* <Nav/> */}
-      {/* this uses the same navigation component defined in the parent folder to reduce coding and add reusability */}
+    <div className={styles.about}>
+      <Nav/>
       <main>
         <h2>Pitching Pathways: The Future of AI Investing</h2>
         <section>
@@ -23,11 +22,7 @@ export default function About() {
         </section>
       </main>
 
-      <footer>
-        <em><small>Copyright © 2023 Pitching Pathways LLC</small></em>
-        <br/>
-        <em><small><a href="mailto:pitchingpathways@gmail.com">pitchingpathways@gmail.com</a></small></em>
-      </footer>
+      <Footer/>
     </div>
   )
 }

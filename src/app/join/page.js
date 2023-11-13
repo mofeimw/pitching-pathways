@@ -6,8 +6,8 @@ import styles from './page.module.css'
 
 export default function Join() {
   return (
-    <div>
-      {/* <Nav/> */}
+    <div className={styles.join}>
+      <Nav/>
       {/* this uses the same navigation component defined in the parent folder to reduce coding and add reusability */}
       <main>
         <h2>Pitching Pathways: Join</h2>

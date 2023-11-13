@@ -6,8 +6,8 @@ import styles from './page.module.css'
 
 export default function Team() {
   return (
-    <div>
-      {/* <Nav/> */}
+    <div className={styles.team}>
+      <Nav/>
       {/* this uses the same navigation component defined in the parent folder to reduce coding and add reusability */}
       <main>
         <h2>Pitching Pathways: Team Members</h2>

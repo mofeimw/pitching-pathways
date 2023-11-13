@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import styles from './socialfooter.module.css'
+import styles from './socials.module.css'
 
-export default function SocialFooter() {
+export default function Socials() {
   return (
-    <footer className={styles.footer}>
-      <ul className={styles.footerList}>
+    <aside className={styles.aside}>
+      <ul className={styles.socialsList}>
         <li><a href="https://www.instagram.com/pitchingpathways/"><Image
           src="/instagram.svg"
           width={40}
@@ -21,6 +21,6 @@ export default function SocialFooter() {
           height={40}
         /></a></li>
       </ul>
-    </footer>
+    </aside>
   )
 }

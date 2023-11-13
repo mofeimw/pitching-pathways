@@ -4,23 +4,10 @@
   position: fixed;
   bottom: 1.5em;
   text-align: center;
+  font-style: italic;
 }
 
-.footerList {
-  display: inline-block;
-  list-style-type: none;
-  margin-right: 2em;
-  font-size: 1.2em;
-}
-
-.footerList li {
-  margin: 0 1em;
-  display: inline;
-}
-
-.footerList a {
+.footer a {
+  color: #000;
   text-decoration: none;
-  color: black;
 }
-
-

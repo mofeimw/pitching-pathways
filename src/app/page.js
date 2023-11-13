@@ -1,5 +1,6 @@
 import Nav from './nav'
-import SocialFooter from './socialfooter'
+import Socials from './socials'
+import Footer from './footer'
 
 import Image from 'next/image'
 import styles from './page.module.css'
@@ -22,7 +23,8 @@ export default function Home() {
           <button className={styles.heroSubmit}>Notify Me!</button>
         </div>
       </main>
-      <SocialFooter/>
+      <Socials/>
+      <Footer/>
     </div>
   )
 }

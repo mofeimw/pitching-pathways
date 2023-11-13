@@ -1,24 +1,24 @@
-.footer {
+.aside {
   width: 100%;
   margin: 0 auto;
   position: fixed;
-  bottom: 1.5em;
+  left: 50%;
+  top: 35%;
   text-align: center;
 }
 
-.footerList {
+.socialsList {
   display: inline-block;
   list-style-type: none;
-  margin-right: 2em;
+  margin-right: 11em;
   font-size: 1.2em;
 }
 
-.footerList li {
-  margin: 0 1em;
-  display: inline;
+.socialsList li {
+  margin: 1.3em 0;
 }
 
-.footerList a {
+.socialsList a {
   text-decoration: none;
   color: black;
 }
