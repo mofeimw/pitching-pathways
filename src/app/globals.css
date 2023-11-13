@@ -30,3 +30,7 @@ body {
     background-position: 0% 50%
   }
 }
+
+.flow { display: flex; 
+       flex-direction: row; }
+
