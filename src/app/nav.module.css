@@ -7,7 +7,6 @@
 
 .nav h1 {
   font-size: 2.3em;
-  color: #1E3612;
   display: inline-block;
   letter-spacing: 0.6px;
   text-transform: uppercase;
@@ -21,6 +20,11 @@
   height: 6em;
   width: 6em;
   margin: 1em 2em;
+  transition: all .2s ease-in-out;
+}
+
+.navLogo:hover {
+  transform: scale(1.2);
 }
 
 .navList {
@@ -43,16 +47,18 @@
 }
 
 .navList a {
-  color: #000;
   color: #d9deb8;
   text-decoration: none;
+  transition: all .2s ease-in-out;
+  text-shadow: 0 0 5px rgba(217,222,184, 0.13), 0 0 15px rgba(217,222,184, 0.13), 0 0 20px rgba(217,222,184, 0.13), 0 0 40px rgba(217,222,184, 0.13), 0 0 60px rgba(109,173,120, 0.13), 0 0 10px rgba(217,222,184, 0.13), 0 0 98px rgba(109,173,120, 0.13);
 }
 
 .navList a:hover {
-  color: #1E3612;
   color: #e66eaa;
-  border-bottom: 3px solid #1E3612;
+  padding-bottom: 3px;
   border-bottom: 3px solid #e66eaa;
+  transform: scale(1.2);
+  text-shadow: 0 0 5px rgba(230,110,170, 0.2), 0 0 15px rgba(230,110,170, 0.2), 0 0 20px rgba(230,110,170, 0.2), 0 0 40px rgba(230,110,170, 0.2), 0 0 60px rgba(184,61,122, 0.2), 0 0 10px rgba(230,110,170, 0.2), 0 0 98px rgba(184,61,122, 0.2);
 }
 
  @media only screen and (max-width: 600px) {
