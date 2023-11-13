@@ -1,11 +1,12 @@
-import kv from '@vercel/kv';
+import { kv } from '@vercel/kv';
 
-export default function handler(request, response) {
+export default async function handler(request, response) {
     if (request.method === "POST") {
-        let email = request.body.email
-
+        let email = request.body.email;
+        kv.lpush("emails", email);
         return response.status(200).json(email);
     } else if (request.method === "GET") {
-        return response.status(200).json("email submission endpoint");
+        let emails = await kv.lrange("emails", 0, -1);
+        return response.status(200).json(emails);
     }
 }
