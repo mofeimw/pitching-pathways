@@ -13,3 +13,10 @@
   color: #748277;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    position: relative;
+    margin-top: 35px;
+  }
+}
