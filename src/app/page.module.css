@@ -11,9 +11,9 @@
   margin-bottom: 0.1em;
 }
 
-.heroLogo:hover {
-  box-shadow: 5px 5px black;
-}
+/* .heroLogo:hover { */
+/*   box-shadow: 5px 5px black; */
+/* } */
 
 .heroTitle {
   font-weight: 900;
