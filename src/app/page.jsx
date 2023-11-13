@@ -48,7 +48,7 @@ export default function Home() {
         <p className={styles.heroPara}>Leap to the Forefront of A.I. Investment.</p>
 
         <form action="/emailSubmit" method="post" onSubmit={handleEmailSubmit} className={styles.heroForm}>
-          <input name="email" className={styles.heroEmail} type="email" placeholder="your@email.com"/>
+          <input name="email" className={styles.heroEmail} type="email" placeholder="your@email.com" required/>
           <button type="submit" className={styles.heroSubmit}>Notify Me!</button>
         </form>
       </main>
