@@ -8,13 +8,10 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
-  let email = ""
-
-  function emailChange(e) {
-    email = e.target.value
-  }
-
   function emailSubmit(e) {
+    let email = event.target.email.value
+    e.preventDefault()
+
     alert("adding " + email + " to mailing list")
   }
 
@@ -23,17 +20,20 @@ export default function Home() {
       <Nav/>
       <main className={styles.hero}>
         <h1 className={styles.heroTitle}>Coming Soon.</h1>
+
         <Image
           src="/logo.png"
           className={styles.heroLogo}
           width={420}
           height={280}
         />
+
         <p className={styles.heroPara}>Leap to the Forefront of A.I. Investment.</p>
-        <div className={styles.heroForm}>
-          <input onChange={emailChange} className={styles.heroEmail} type="email" placeholder="your@email.com"/>
-          <button onClick={emailSubmit} className={styles.heroSubmit}>Notify Me!</button>
-        </div>
+
+        <form action="/emailSubmit" method="post" onSubmit={emailSubmit} className={styles.heroForm}>
+          <input  name="email" className={styles.heroEmail} type="email" placeholder="your@email.com"/>
+          <button type="submit" className={styles.heroSubmit}>Notify Me!</button>
+        </form>
       </main>
       <Socials/>
       <Footer/>
