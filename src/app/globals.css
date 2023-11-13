@@ -45,7 +45,7 @@ body {
   }
 
   header {
-    background-image: url(#); /* Add your image URL here */
+    background-image: url('your-image-url.jpg'); /* Add your image URL here */
     background-repeat: no-repeat;
     background-position: right;
     text-align: left;
@@ -77,7 +77,6 @@ body {
   }
 
   input[type="submit"] {
-    grid-column: 2 / 2;
     width: 10em;
   }
 
