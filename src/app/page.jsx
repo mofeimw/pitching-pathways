@@ -26,7 +26,7 @@ export default function Home() {
   };
 
   const handleEmailSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     const email = e.target.email.value;
     setEmail(email);
     showModal();
@@ -47,7 +47,7 @@ export default function Home() {
 
         <p className={styles.heroPara}>Leap to the Forefront of A.I. Investment.</p>
 
-        <form action="/emailSubmit" method="post" onSubmit={handleEmailSubmit} className={styles.heroForm}>
+        <form action="/api/email" method="post" onSubmit={handleEmailSubmit} className={styles.heroForm}>
           <input name="email" className={styles.heroEmail} type="email" placeholder="your@email.com" required/>
           <button type="submit" className={styles.heroSubmit}>Notify Me!</button>
         </form>
