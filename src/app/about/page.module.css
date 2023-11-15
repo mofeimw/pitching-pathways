@@ -4,6 +4,7 @@
   margin-top: 8em;
 }
 
+/* Default styles for larger screens */
 .main-navigation {
   display: flex;
   justify-content: space-between;
@@ -19,6 +20,7 @@
 
 .main-navigation li {
   margin: 0;
+  position: relative; /* Added relative positioning for proper dropdown positioning */
 }
 
 .main-navigation a {
@@ -37,10 +39,42 @@
   position: absolute;
   background-color: #333;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensure the dropdown appears above other elements */
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .main-navigation {
+    flex-direction: column; /* Change to a column layout on smaller screens */
+  }
+
+  .main-navigation ul {
+    width: 100%; /* Occupy full width */
+    flex-direction: column; /* Display list items in a column */
+    align-items: center; /* Center items in the column */
+  }
+
+  .main-navigation li {
+    width: 100%; /* Occupy full width */
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none; /* Hide the dropdown content on hover for smaller screens */
+  }
+
+  .dropdown-content {
+    position: static; /* Remove absolute positioning for smaller screens */
+    display: none; /* Hide the dropdown content by default */
+    width: 100%; /* Occupy full width */
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block; /* Display the dropdown content on click for smaller screens */
+  }
 }
 
 /*This is just test code for a drop down menu doesn't do anything right now need some more changes */
