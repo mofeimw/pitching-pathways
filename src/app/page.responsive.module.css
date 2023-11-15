@@ -12,7 +12,7 @@
   }
 
   .header {
-    background-image: url(#); /* Add your image URL here */
+    background-image: url(logo.png); /* Add your image URL here */
     background-repeat: no-repeat;
     background-position: right;
     text-align: center;
