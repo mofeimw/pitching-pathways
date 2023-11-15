@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pitching-pathways-user-info",
+  "private_key_id": "12ea057c57919f803b84c9d247fa4a4c314cee03",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCwlb56amYGCgOa\nKzvK186XCBz4mh1nba6/VYrQpJ5yrNZVhsgbBv6YQhvF7jztc/tGH22Rxo7/Pk84\n+ZzT55UREvBt8Xl5blqcLV9QJCVLXKwNWmwJPwZjHGTjb5dMDntQFPBBAznrouCY\nWZZNTbSaqULZO/LbXPgBB+ifG5B5YuHFhhdI1xhhAf9S3MGaK7Y01Nbg9Kb48UOy\n5hP39Db8jPMcJ1FFcssffV+681lzKXIgoMGG0fg2yBD0qDgKQ4/ctQoGhbmJ99qy\ndwtsZh8ePJDuREwiof9nKRAeLPbqZ7/h/shoIwqqAhTC7xTQMQ2U8MYNLZubKmWN\nrO2B4UthAgMBAAECggEABbfsR2FfDe/MJ5DrNgdi3Y9zF993ycz85VSuqb7W/3VW\nobPEbj40tUBYzx2iatTbumO4FlMwZV+U3tdvYi5fh/kNpWXRidl8MsXGYN1pFHxx\n5uwWBsgy5LeNpLNxrIkb82hYdwHwWKILx2tAJNYVi6Vb8JY3A4nvBfSqgKloZCZ1\nBRjGJPPpn99t7P86nGDB2EeVGHRwyAyB4sNxjWDHUeHsgs/ieI2Iv4OY9GXLV8U1\ns23nRH10Jo/lWV6FojNr96ejonpUioqwUvhMy/0WaGz3gkomKbADpmoD5kYKKqMF\nYCBbnGhOG8saRa/BJSRDbvRoBWycNchu7jb4+1HjtQKBgQDV5DdiKcyjHUkmkXBA\nD5br7TddEGgFYJVPsTu6tYnsc7OlDWQs7Pwr0E7+f3WowdjQpQ8rMN/GucMA+tcK\nPUqFTtlLZxlYikkGlg2m9n68Tqr8qfqB7COQtn5tqu5pE3zLHgnAS80ieVZ+k1xT\nuBTeTeaDa3pQ/oXOhHmBbYrnTQKBgQDTWVbCmFMIja3D3deLrHUmyvktUXOp++gu\nN6OHpb4UFqZup0Af5PU9YSNa8GYyHx0uGnEla4Grfe+h5+coYVcxV6FEnbaInxr6\nhwKIpIejE0L+J8j2SAgfBNUkXnYlkw22EAvTmoEJSOuLD/IDx+ccO0koxjLePs6c\nHmLZvwMyZQKBgQCDUTXfgqIsktJSZ4BvFCMofd87t9LlWkLRRpLRMpuXHAHzF6Gl\nI2o+zAlznnVyQnEGyA/kCIGa1HmwpFBZ7P9PkPU/ofCht2TWMlH3a+arXfEEZqdy\nFLRRKHm+gu8Ue+5mFe8OrHso6y37UCWjEKVfRpx7mwThrSIhhJvEpqhdEQKBgC+X\nwKfVcW1NqkGfJTi4vzDbKD2CSA+RQHmX4eVb92/CofvtAc2s22TVCQcjd3/17bZC\nEhShHvQlSd8lv7IiKWZdG12+PiqJ2aNs368xjbG1VrKw9tou4lVJ201zUBup/75t\n4pvmAQS8PP51usQLMgnzd8gMycuuTQxu80ehcfDZAoGAHchvAGz6z0gFawRaW9VU\nBqAwRX1c0ws0qANQch4oDYY6+3noSai35ZFtm+R3iOi2WH44XB+KnY9MrDbpW65U\nkgL8VynKBi+LY5R8b9A1JQzYDhA/DEbSaX5XpHeqi81hdd6AXPnkZpV9e/Dt/RM1\nSEC5oiMByix2DwJHGokI570=\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-account@pitching-pathways-user-info.iam.gserviceaccount.com",
+  "client_id": "113055122626605227005",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-account%40pitching-pathways-user-info.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
