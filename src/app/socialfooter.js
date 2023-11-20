@@ -5,7 +5,8 @@ export default function SocialFooter() {
   return (
     <footer className={styles.footer}>
       <ul className={styles.footerList}>
-        <li><a href="https://www.instagram.com/pitchingpathways/"><Image
+        <li><a href="https://www.instagram.com/pitchingpathways/">
+          <Image
           src="/instagram.svg"
           width={40}
           height={40}

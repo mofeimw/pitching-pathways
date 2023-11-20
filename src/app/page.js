@@ -1,5 +1,6 @@
 import Nav from './nav'
 import SocialFooter from './socialfooter'
+import Link from 'next/link';
 
 import Image from 'next/image'
 import styles from './page.module.css'
@@ -9,7 +10,12 @@ export default function Home() {
     <div>
       <Nav/>
       <main className={styles.hero}>
-        <h1 className={styles.heroTitle}>Coming Soon.</h1>
+        <h1 className={styles.heroTitle}>Coming Soon!.</h1>
+        {/* <h1 className={styles.heroTitle}>
+          <Link href="/team">Meet the Team!</Link>
+        </h1> */}
+        
+
         <Image
           src="/logo.png"
           className={styles.heroLogo}
