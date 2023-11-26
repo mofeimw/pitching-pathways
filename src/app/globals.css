@@ -1,7 +1,8 @@
 body {
+  /* background: linear-gradient(to bottom right, #97bf82, #E2D1C3); */
+  background-image: url('../../public/circuits.svg');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #A0C48D;
-  background-image: url('../../public/bg.jpg');
-  background-size: 100% 100%;
 }
