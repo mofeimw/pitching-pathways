@@ -6,7 +6,7 @@ export default function Nav() {
     <header className={styles.nav}>
       <a href="/">
         <Image
-          src="/logo-circle.png"
+          src="/head.png"
           className={styles.navLogo}
           width={320}
           height={320}
