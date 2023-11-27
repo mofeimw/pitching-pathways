@@ -15,7 +15,7 @@ export default function Socials() {
           width={40}
           height={40}
         /></a></li>
-        <li><a href=""><Image
+        <li><a href="https://www.facebook.com/PitchingPathways"><Image
           src="/facebook.svg"
           width={40}
           height={40}
