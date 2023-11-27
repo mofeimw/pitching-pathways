@@ -40,7 +40,7 @@ export default function Home() {
         <h1 className={styles.heroTitle}>Coming Soon.</h1>
 
         <Image
-          src="/Logo head.png"
+          src="/logo.png"
           className={styles.heroLogo}
           width={420}
           height={280}
