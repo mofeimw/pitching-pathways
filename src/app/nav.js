@@ -8,8 +8,8 @@ export default function Nav() {
         <Image
           src="/logo-circle.png"
           className={styles.navLogo}
-          width={240}
-          height={240}
+          width={320}
+          height={320}
         />
         {/* <h1>Pitching Pathways</h1> */}
       </a>
