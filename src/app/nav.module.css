@@ -17,9 +17,9 @@
 
 .navLogo {
   float: left;
-  height: 6em;
-  width: 6em;
-  margin: 1em 2em;
+  height: 5em;
+  width: 5em;
+  margin: 1.5em 1.5em;
   transition: all .2s ease-in-out;
 }
 
