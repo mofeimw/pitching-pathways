@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 import Rodal from 'rodal';
-import 'rodal/lib/rodal.css';
+import './rodal.css';
 
 import Nav from './nav';
 import Socials from './socials';
@@ -58,12 +58,12 @@ export default function Home() {
 
       <Rodal visible={modalVisible} onClose={closeModal}>
         <div>
-          <p>Adding {email} to the mailing list!</p>
+          <p className={styles.modalP}>Added {email} to the mailing list!</p>
           <Image
-            src="/meme-idk.jpg"
-            className={styles.navMeme}
+            src="/logo.png"
+            className={styles.modalPic}
             width={320}
-            height={180}
+            height={200}
           />
         </div>
       </Rodal>

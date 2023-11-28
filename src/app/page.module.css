@@ -85,6 +85,19 @@
   background-color: #1e3612;
 }
 
+.modalP {
+	padding-top: 10px;
+	color: #C7EEB7;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.modalPic {
+	text-align: center;
+	margin: 0 auto;
+}
+
 /* responsive */
 
 @media only screen and (max-width: 600px) {
